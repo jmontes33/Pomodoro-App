@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pomodoro App</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="main-view">
+            <h1>Pomodoro App</h1>
+            <div id="state-app">
+                <div id="state-1">
+                    <p>Pomodoro</p>
+                </div>
+                <div id="state-2">
+                    <p>Break</p>
+                </div>
+            </div>
+            <div id="time">
+                <p id="timer"></p>
+            </div>
+            <div id="settings-button" >
+                <img src="config-svgrepo-com.svg" alt="config">
+            </div>
+        </div>
+        <div id="settings-view">
+            <div id="settings-container">
+                <h1>Settings</h1>
+                <button id="close-button">X</button>
+            </div>
+            <h2>TIME (MINUTES)</h2>
+            <div id="set-timers">
+                <div>
+                    <label for="pomodoro-timer">Pomodoro</label>
+                    <input id="pomodoro-timer" type="number">
+                </div>
+                <div>
+                    <label for="short-timer">Short break</label>
+                    <input id="short-timer" type="number">
+                </div>
+            </div>
+            <button id="apply-button">Apply</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

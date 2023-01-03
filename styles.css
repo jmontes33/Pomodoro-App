@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282772;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30vw;
+    height: 40vw;
+    gap: 3vw;
+    position: relative;
+}
+
+h1 {
+    font-size: 3vw;
+    color: #7876ff;
+}
+
+#state-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3634a5;
+    border-radius: 50px;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    padding-left: 0.3vw;
+    padding-right: 0.3vw;
+    width: 60%;
+
+}
+
+#state-app div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#state-app p {
+    color: white;
+    font-weight: bold;
+}
+
+#time {
+    background-color: #3634a5;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#timer {
+    color: #a7a6ff;
+    font-size: 4vw;
+}
+
+#settings-button img {
+    width: 3vw;
+    cursor: pointer;
+}
+
+#settings-view {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3634a5;
+    border-radius: 20px;
+    height: 25vw;
+    width: 25vw;
+    position: absolute;
+    box-shadow: 3px 3px 8px black;
+}
+
+#settings-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+#close-button {
+    height: 2vw;
+    width: 2vw;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
+
+#close-button:hover {
+    cursor: pointer;
+    background-color: rgb(201, 0, 0);
+}
+
+h2 {
+    margin-bottom: 3vw;
+    color: white;
+}
+
+#set-timers {
+    display: flex;
+}
+
+#set-timers div label {
+    font-weight: bold;
+    color: white;
+}
+
+#set-timers div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 70%;
+    height: 2vw;
+    border-radius: 50px;
+    padding-left: 1vw;
+    border: none;
+    box-shadow: 1px 3px 8px black;
+}
+
+#apply-button {
+    margin-top: 2vw;
+    width: 10vw;
+    height: 3vw;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #a7a6ff;
+    font-size: 1vw;
+    color: white;
+}
+
+#apply-button:hover {
+    background-color: #7876ff;
+    cursor: pointer;
+    box-shadow: 1px 3px 8px black;
+}
