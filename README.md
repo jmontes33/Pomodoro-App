@@ -15,7 +15,7 @@ Link to the app: https://timely-otter-1b8a49.netlify.app/
 
 ### Screenshot
 
-![Project finished](./app-img.PNG)
+![Project finished](./app-img.png)
 
 ### Built with
 
