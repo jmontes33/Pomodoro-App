@@ -24,32 +24,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #282772;
+    background-color: #5585b5;
     border-radius: 20px;
     padding: 20px;
-    width: 30vw;
-    height: 40vw;
-    gap: 3vw;
+    width: 400px;
+    height: 600px;
+    gap: 20px;
     position: relative;
 }
 
 h1 {
-    font-size: 3vw;
-    color: #7876ff;
+    font-size: 50px;
+    color: #bbe4e9;
 }
 
 #state-app {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3634a5;
+    background-color: #79c2d0;
     border-radius: 50px;
-    padding-top: 0.3vw;
-    padding-bottom: 0.3vw;
-    padding-left: 0.3vw;
-    padding-right: 0.3vw;
+    padding: 15px;
     width: 60%;
-
 }
 
 #state-app div {
@@ -59,14 +55,14 @@ h1 {
 }
 
 #state-app p {
-    color: white;
+    color: #5585b5;
     font-weight: bold;
 }
 
 #time {
-    background-color: #3634a5;
-    width: 15vw;
-    height: 15vw;
+    background-color: #79c2d0;
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,12 +70,12 @@ h1 {
 }
 
 #timer {
-    color: #a7a6ff;
-    font-size: 4vw;
+    color: #5585b5;
+    font-size: 80px;
 }
 
 #settings-button img {
-    width: 3vw;
+    width: 50px;
     cursor: pointer;
 }
 
@@ -87,10 +83,10 @@ h1 {
     display: none;
     flex-direction: column;
     align-items: center;
-    background-color: #3634a5;
+    background-color: #4e78a1;
     border-radius: 20px;
-    height: 25vw;
-    width: 25vw;
+    height: 420px;
+    width: 420px;
     position: absolute;
     box-shadow: 3px 3px 8px black;
 }
@@ -103,12 +99,13 @@ h1 {
 }
 
 #close-button {
-    height: 2vw;
-    width: 2vw;
+    height: 40px;
+    width: 40px;
     background-color: red;
     color: white;
     border: none;
     border-radius: 50%;
+    font-weight: bold;
 }
 
 #close-button:hover {
@@ -117,8 +114,8 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 3vw;
-    color: white;
+    margin-bottom: 50px;
+    color: #bbe4e9;
 }
 
 #set-timers {
@@ -127,7 +124,7 @@ h2 {
 
 #set-timers div label {
     font-weight: bold;
-    color: white;
+    color: #bbe4e9;
 }
 
 #set-timers div {
@@ -139,27 +136,51 @@ h2 {
 
 input {
     width: 70%;
-    height: 2vw;
+    height: 35px;
     border-radius: 50px;
-    padding-left: 1vw;
+    padding-left: 15px;
     border: none;
     box-shadow: 1px 3px 8px black;
 }
 
 #apply-button {
-    margin-top: 2vw;
-    width: 10vw;
-    height: 3vw;
+    margin-top: 40px;
+    width: 200px;
+    height: 60px;
     border: none;
     font-weight: bold;
     border-radius: 50px;
-    background-color: #a7a6ff;
-    font-size: 1vw;
-    color: white;
+    background-color: #2f557a;
+    font-size: 20px;
+    color: #4e78a1;
 }
 
 #apply-button:hover {
-    background-color: #7876ff;
+    background-color: #25405c;
     cursor: pointer;
     box-shadow: 1px 3px 8px black;
+}
+
+@media all and (max-width: 760px) {
+    #main-view {
+        width: 300px;
+        height: 533px;
+    }
+
+    #main-view h1 {
+        font-size: 40px;
+    }
+
+    #state-app div {
+        width: 50%;
+    }
+
+    #state-app {
+        height: 30px;
+        width: 250px;
+    }
+
+    #settings-view {
+        width: 380px;
+    }
 }

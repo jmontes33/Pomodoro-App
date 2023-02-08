@@ -29,6 +29,7 @@ function init() {
 }
 
 function pomodoro() {
+    document.getElementById("settings-view").style.display = "none";
     let m = document.getElementById("pomodoro-timer").value;
 
     var sAux, mAux;
